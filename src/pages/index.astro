@@ -11,7 +11,7 @@ const title = 'DESN FMLY Seniors 2026'
 
 <BaseLayout title={title}>
   
-  <h1> {title} </h1>
+  <h1 id="main-title"> {title} </h1>
   
   <main>
 
@@ -22,4 +22,16 @@ const title = 'DESN FMLY Seniors 2026'
 </main>
 
 </BaseLayout>
+
+<style>
+  #main-title {
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+    font-family: 'Satoshi', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: -1px;
+  }
+</style>
 
